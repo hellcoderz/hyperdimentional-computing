@@ -1,0 +1,7 @@
+(ns hyperdimentional-computing)
+(foo)
+(core.foo)
+(core/foo)
+(ns hyperdimentional-computing.core)
+(foor)
+(foo)
