@@ -5,3 +5,5 @@
 (ns hyperdimentional-computing.core)
 (foor)
 (foo)
+(def hdfs-url "hdfs://dev")
+hdfs-url
