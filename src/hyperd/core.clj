@@ -1,6 +1,7 @@
-(ns hyperdimentional-computing.core
+(ns hyperd.core
   (:require [clojure.core.matrix :as m]
-        [clojure.core.matrix.linear :as ml]))
+        [clojure.core.matrix.linear :as ml]
+        (:gen-class)))
 
 
 (m/set-current-implementation :vectorz)
@@ -34,7 +35,7 @@
 (println (cosine-sim a b))
 
 
-(defn foo
+(defn -main
   "I don't do a whole lot."
-  [x]
-  (println x "Hello, World!"))
+  [& args]
+  (println "Hyperdimentional Computing Experiments!"))
